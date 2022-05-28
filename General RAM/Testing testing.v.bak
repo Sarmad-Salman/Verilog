@@ -1,0 +1,12 @@
+module test(clk, rst_n, wrt_sig, rd_sig, din, dout, full_sig, empty_sig, over_flow, under_flow);
+fifo_top ff(clk, rst_n, wrt_sig, rd_sig, din, full_sig, empty_sig, over_flow, under_flow, dout);
+input [7:0] din;
+output [7:0] dout;
+input clk, rst_n, wrt_sig, rd_sig;
+output full_sig, empty_sig, over_flow, under_flow;
+wire [7:0] dwire, dout_ram;
+wire clk_in;
+assign clk_in=clk;
+input [4:0] addr_w, addr_r;
+ram_general rr(clk_in, wrt_sig, addr_w, addr_r, dwire, dout_ram);
+endmodule

@@ -1,0 +1,25 @@
+module ram_tb();
+reg clk, wrt_sig;
+reg [7:0] addr_w, addr_r;
+reg [7:0] din_ram;
+wire [7:0] dout_ram;
+reg [7:0] mem_ch[0:99999999];
+reg [7:0] comp_mem1[0:99999999];
+reg [7:0] comp_mem2[0:99999999];
+`include "initialize_sys.v"
+`include "mk_infile.v"
+`include "wrt_data.v"
+`include "rd_data.v"
+`include "comp_data.v"
+initial
+begin
+ initialize_sys;
+ mk_infile;
+ wrt_data;
+ rd_data;
+ comp_data;
+#1000 $stop;
+end
+always #25 clk=~clk;
+ram_general r1(clk, wrt_sig, addr_w, addr_r, din_ram, dout_ram);
+endmodule 

@@ -1,0 +1,129 @@
+C:/Users/sarma/Downloads/FIFO_v_tf.v {1 {vlog -work work -vopt -stats=none C:/Users/sarma/Downloads/FIFO_v_tf.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module FIFO_v_tf
+
+Top level modules:
+	FIFO_v_tf
+
+} {} {}} {D:/BSEE/Semester 6/FPGA/Assignment/Ram General/rd_data_fifo.v} {0 {vlog -work work -vopt -sv -stats=none {D:/BSEE/Semester 6/FPGA/Assignment/Ram General/rd_data_fifo.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+** Error: D:/BSEE/Semester 6/FPGA/Assignment/Ram General/rd_data_fifo.v(6): (vlog-2730) Undefined variable: 'clk'.
+** Error: D:/BSEE/Semester 6/FPGA/Assignment/Ram General/rd_data_fifo.v(7): (vlog-2730) Undefined variable: 'rd_ptr'.
+** Error: D:/BSEE/Semester 6/FPGA/Assignment/Ram General/rd_data_fifo.v(8): (vlog-2730) Undefined variable: 'rd_sig'.
+** Error: D:/BSEE/Semester 6/FPGA/Assignment/Ram General/rd_data_fifo.v(13): (vlog-2730) Undefined variable: 'rd_sig'.
+
+} {3.0 7.0} {}} {D:/BSEE/Semester 6/FPGA/Assignment/Ram General/Ram Controller.v} {1 {vlog -work work -vopt -stats=none {D:/BSEE/Semester 6/FPGA/Assignment/Ram General/Ram Controller.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module ram_ctrl
+
+Top level modules:
+	ram_ctrl
+
+} {} {}} {D:/BSEE/Semester 6/FPGA/Assignment/Ram General/Test FIFO.v} {1 {vlog -work work -vopt -stats=none {D:/BSEE/Semester 6/FPGA/Assignment/Ram General/Test FIFO.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module tb_fifo
+
+Top level modules:
+	tb_fifo
+
+} {} {}} {D:/BSEE/Semester 6/FPGA/Assignment/Ram General/FIFO Test.v} {1 {vlog -work work -vopt -stats=none {D:/BSEE/Semester 6/FPGA/Assignment/Ram General/FIFO Test.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module fifo_tb
+
+Top level modules:
+	fifo_tb
+
+} {} {}} {D:/BSEE/Semester 6/FPGA/Assignment/Ram General/mk_infile.v} {1 {vlog -work work -vopt -sv -stats=none {D:/BSEE/Semester 6/FPGA/Assignment/Ram General/mk_infile.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/BSEE/Semester 6/FPGA/Assignment/Ram General/Ram General.v} {1 {vlog -work work -vopt -stats=none {D:/BSEE/Semester 6/FPGA/Assignment/Ram General/Ram General.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module ram_general
+
+Top level modules:
+	ram_general
+
+} {} {}} {D:/BSEE/Semester 6/FPGA/Assignment/Ram General/wrt_data.v} {0 {vlog -work work -vopt -sv -stats=none {D:/BSEE/Semester 6/FPGA/Assignment/Ram General/wrt_data.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+** Error: D:/BSEE/Semester 6/FPGA/Assignment/Ram General/wrt_data.v(7): (vlog-2730) Undefined variable: 'mem_ch'.
+** Error: D:/BSEE/Semester 6/FPGA/Assignment/Ram General/wrt_data.v(8): (vlog-2730) Undefined variable: 'clk'.
+** Error: D:/BSEE/Semester 6/FPGA/Assignment/Ram General/wrt_data.v(9): (vlog-2730) Undefined variable: 'din_ram'.
+** Error: D:/BSEE/Semester 6/FPGA/Assignment/Ram General/wrt_data.v(10): (vlog-2730) Undefined variable: 'addr_w'.
+** Error: D:/BSEE/Semester 6/FPGA/Assignment/Ram General/wrt_data.v(11): (vlog-2730) Undefined variable: 'wrt_sig'.
+** Error: D:/BSEE/Semester 6/FPGA/Assignment/Ram General/wrt_data.v(14): (vlog-2730) Undefined variable: 'clk'.
+** Error: D:/BSEE/Semester 6/FPGA/Assignment/Ram General/wrt_data.v(15): (vlog-2730) Undefined variable: 'wrt_sig'.
+
+} {3.0 10.0} {}} {D:/BSEE/Semester 6/FPGA/Assignment/Ram General/rd_data.v} {0 {vlog -work work -vopt -sv -stats=none {D:/BSEE/Semester 6/FPGA/Assignment/Ram General/rd_data.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+** Error: D:/BSEE/Semester 6/FPGA/Assignment/Ram General/rd_data.v(6): (vlog-2730) Undefined variable: 'clk'.
+** Error: D:/BSEE/Semester 6/FPGA/Assignment/Ram General/rd_data.v(7): (vlog-2730) Undefined variable: 'addr_r'.
+
+} {3.0 5.0} {}} {D:/BSEE/Semester 6/FPGA/Assignment/Ram General/Ram Test.v} {1 {vlog -work work -vopt -stats=none {D:/BSEE/Semester 6/FPGA/Assignment/Ram General/Ram Test.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module ram_tb
+
+Top level modules:
+	ram_tb
+
+} {} {}} {D:/BSEE/Semester 6/FPGA/Assignment/Ram General/comp_data.v} {0 {vlog -work work -vopt -sv -stats=none {D:/BSEE/Semester 6/FPGA/Assignment/Ram General/comp_data.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+** Error: D:/BSEE/Semester 6/FPGA/Assignment/Ram General/comp_data.v(12): (vlog-2730) Undefined variable: 'comp_mem1'.
+** Error: D:/BSEE/Semester 6/FPGA/Assignment/Ram General/comp_data.v(12): (vlog-2730) Undefined variable: 'comp_mem2'.
+
+} {3.0 5.0} {}} {D:/BSEE/Semester 6/FPGA/Assignment/Ram General/wrt_data_fifo.v} {0 {vlog -work work -vopt -sv -stats=none {D:/BSEE/Semester 6/FPGA/Assignment/Ram General/wrt_data_fifo.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+** Error: D:/BSEE/Semester 6/FPGA/Assignment/Ram General/wrt_data_fifo.v(7): (vlog-2730) Undefined variable: 'mem_ch'.
+** Error: D:/BSEE/Semester 6/FPGA/Assignment/Ram General/wrt_data_fifo.v(8): (vlog-2730) Undefined variable: 'clk'.
+** Error: D:/BSEE/Semester 6/FPGA/Assignment/Ram General/wrt_data_fifo.v(9): (vlog-2730) Undefined variable: 'din'.
+** Error: D:/BSEE/Semester 6/FPGA/Assignment/Ram General/wrt_data_fifo.v(10): (vlog-2730) Undefined variable: 'wrt_ptr'.
+** Error: D:/BSEE/Semester 6/FPGA/Assignment/Ram General/wrt_data_fifo.v(11): (vlog-2730) Undefined variable: 'wrt_sig'.
+** Error: D:/BSEE/Semester 6/FPGA/Assignment/Ram General/wrt_data_fifo.v(14): (vlog-2730) Undefined variable: 'clk'.
+** Error: D:/BSEE/Semester 6/FPGA/Assignment/Ram General/wrt_data_fifo.v(15): (vlog-2730) Undefined variable: 'wrt_sig'.
+
+} {3.0 10.0} {}} {D:/BSEE/Semester 6/FPGA/Assignment/Ram General/fsdf.v} {0 {vlog -work work -vopt -stats=none {D:/BSEE/Semester 6/FPGA/Assignment/Ram General/fsdf.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module aa
+** Error (suppressible): D:/BSEE/Semester 6/FPGA/Assignment/Ram General/fsdf.v(3): (vlog-13158) Operator '~&' is not supported.
+-- Compiling module taa
+
+} {} {}} {D:/BSEE/Semester 6/FPGA/Assignment/Ram General/FIFO.v} {1 {vlog -work work -vopt -stats=none {D:/BSEE/Semester 6/FPGA/Assignment/Ram General/FIFO.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module fifo_top
+
+Top level modules:
+	fifo_top
+
+} {} {}} {D:/BSEE/Semester 6/FPGA/Assignment/Ram General/Updated Test.v} {1 {vlog -work work -vopt -stats=none {D:/BSEE/Semester 6/FPGA/Assignment/Ram General/Updated Test.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module update_fifo_top
+
+Top level modules:
+	update_fifo_top
+
+} {} {}} {D:/BSEE/Semester 6/FPGA/Assignment/Ram General/init_fifo.v} {0 {vlog -work work -vopt -sv -stats=none {D:/BSEE/Semester 6/FPGA/Assignment/Ram General/init_fifo.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+** Error: D:/BSEE/Semester 6/FPGA/Assignment/Ram General/init_fifo.v(3): (vlog-2730) Undefined variable: 'clk'.
+** Error: D:/BSEE/Semester 6/FPGA/Assignment/Ram General/init_fifo.v(4): (vlog-2730) Undefined variable: 'wrt_sig'.
+** Error: D:/BSEE/Semester 6/FPGA/Assignment/Ram General/init_fifo.v(5): (vlog-2730) Undefined variable: 'din'.
+** Error: D:/BSEE/Semester 6/FPGA/Assignment/Ram General/init_fifo.v(6): (vlog-2730) Undefined variable: 'rd_sig'.
+** Error: D:/BSEE/Semester 6/FPGA/Assignment/Ram General/init_fifo.v(7): (vlog-2730) Undefined variable: 'rst_n'.
+
+} {3.0 8.0} {}} {D:/BSEE/Semester 6/FPGA/Assignment/Ram General/initialize_sys.v} {0 {vlog -work work -vopt -sv -stats=none {D:/BSEE/Semester 6/FPGA/Assignment/Ram General/initialize_sys.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+** Error: D:/BSEE/Semester 6/FPGA/Assignment/Ram General/initialize_sys.v(3): (vlog-2730) Undefined variable: 'clk'.
+** Error: D:/BSEE/Semester 6/FPGA/Assignment/Ram General/initialize_sys.v(4): (vlog-2730) Undefined variable: 'wrt_sig'.
+** Error: D:/BSEE/Semester 6/FPGA/Assignment/Ram General/initialize_sys.v(5): (vlog-2730) Undefined variable: 'addr_w'.
+** Error: D:/BSEE/Semester 6/FPGA/Assignment/Ram General/initialize_sys.v(6): (vlog-2730) Undefined variable: 'addr_r'.
+** Error: D:/BSEE/Semester 6/FPGA/Assignment/Ram General/initialize_sys.v(7): (vlog-2730) Undefined variable: 'din_ram'.
+
+} {3.0 8.0} {}} C:/Users/sarma/Downloads/FIFO_v.v {1 {vlog -work work -vopt -stats=none C:/Users/sarma/Downloads/FIFO_v.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module FIFO_v
+
+Top level modules:
+	FIFO_v
+
+} {} {}}

@@ -1,0 +1,665 @@
+# Compile of Ram General.v was successful.
+# Compile of Ram Test.v was successful.
+# Compile of initialize_sys.v failed with 5 errors.
+# Compile of mk_infile.v was successful.
+# Compile of wrt_data.v failed with 7 errors.
+# Compile of rd_data.v failed with 2 errors.
+# Compile of comp_data.v failed with 2 errors.
+# Compile of FIFO.v was successful.
+# Compile of init_fifo.v failed with 5 errors.
+# Compile of wrt_data_fifo.v failed with 7 errors.
+# Compile of rd_data_fifo.v failed with 4 errors.
+# Compile of Test FIFO.v was successful.
+# Compile of FIFO Test.v was successful.
+# Compile of FIFO_v.v was successful.
+# Compile of FIFO_v_tf.v was successful.
+# Compile of Updated Test.v was successful.
+# Compile of Ram Controller.v was successful.
+# 17 compiles, 7 failed with 32 errors.
+vsim -gui work.ram_tb -novopt
+# vsim -gui work.ram_tb -novopt 
+# Start time: 14:24:28 on Jul 19,2020
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing D:/BSEE/Semester 6/FPGA/Assignment/Ram General/work.ram_tb
+# Loading work.ram_tb
+# Refreshing D:/BSEE/Semester 6/FPGA/Assignment/Ram General/work.ram_general
+# Loading work.ram_general
+# ** Fatal: (vsim-3365) D:/BSEE/Semester 6/FPGA/Assignment/Ram General/Ram Test.v(24): Too many port connections. Expected 6, found 7.
+#    Time: 0 ns  Iteration: 0  Instance: /ram_tb/r1 File: D:/BSEE/Semester 6/FPGA/Assignment/Ram General/Ram General.v
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 14:24:29 on Jul 19,2020, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+# Compile of Ram General.v was successful.
+# Compile of Ram Test.v was successful.
+# Compile of initialize_sys.v failed with 5 errors.
+# Compile of mk_infile.v was successful.
+# Compile of wrt_data.v failed with 7 errors.
+# Compile of rd_data.v failed with 2 errors.
+# Compile of comp_data.v failed with 2 errors.
+# Compile of FIFO.v was successful.
+# Compile of init_fifo.v failed with 5 errors.
+# Compile of wrt_data_fifo.v failed with 7 errors.
+# Compile of rd_data_fifo.v failed with 4 errors.
+# Compile of Test FIFO.v was successful.
+# Compile of FIFO Test.v was successful.
+# Compile of FIFO_v.v was successful.
+# Compile of FIFO_v_tf.v was successful.
+# Compile of Updated Test.v was successful.
+# Compile of Ram Controller.v was successful.
+# 17 compiles, 7 failed with 32 errors.
+# Compile of Ram General.v was successful.
+# Compile of Ram Test.v was successful.
+# Compile of initialize_sys.v failed with 5 errors.
+# Compile of mk_infile.v was successful.
+# Compile of wrt_data.v failed with 7 errors.
+# Compile of rd_data.v failed with 2 errors.
+# Compile of comp_data.v failed with 2 errors.
+# Compile of FIFO.v was successful.
+# Compile of init_fifo.v failed with 5 errors.
+# Compile of wrt_data_fifo.v failed with 7 errors.
+# Compile of rd_data_fifo.v failed with 4 errors.
+# Compile of Test FIFO.v was successful.
+# Compile of FIFO Test.v was successful.
+# Compile of FIFO_v.v was successful.
+# Compile of FIFO_v_tf.v was successful.
+# Compile of Updated Test.v was successful.
+# Compile of Ram Controller.v was successful.
+# 17 compiles, 7 failed with 32 errors.
+vsim -gui -novopt work.ram_tb
+# vsim -gui -novopt work.ram_tb 
+# Start time: 14:25:48 on Jul 19,2020
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing D:/BSEE/Semester 6/FPGA/Assignment/Ram General/work.ram_tb
+# Loading work.ram_tb
+# Refreshing D:/BSEE/Semester 6/FPGA/Assignment/Ram General/work.ram_general
+# Loading work.ram_general
+# ** Warning: (vsim-3015) D:/BSEE/Semester 6/FPGA/Assignment/Ram General/Ram Test.v(24): [PCDPC] - Port size (26) does not match connection size (7) for port 'addr_w'. The port definition is at: D:/BSEE/Semester 6/FPGA/Assignment/Ram General/Ram General.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /ram_tb/r1 File: D:/BSEE/Semester 6/FPGA/Assignment/Ram General/Ram General.v
+# ** Warning: (vsim-3015) D:/BSEE/Semester 6/FPGA/Assignment/Ram General/Ram Test.v(24): [PCDPC] - Port size (26) does not match connection size (7) for port 'addr_r'. The port definition is at: D:/BSEE/Semester 6/FPGA/Assignment/Ram General/Ram General.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /ram_tb/r1 File: D:/BSEE/Semester 6/FPGA/Assignment/Ram General/Ram General.v
+quit -sim
+# End time: 14:26:16 on Jul 19,2020, Elapsed time: 0:00:28
+# Errors: 0, Warnings: 3
+# Compile of Ram General.v was successful.
+# Compile of Ram Test.v was successful.
+# Compile of initialize_sys.v failed with 5 errors.
+# Compile of mk_infile.v was successful.
+# Compile of wrt_data.v failed with 7 errors.
+# Compile of rd_data.v failed with 2 errors.
+# Compile of comp_data.v failed with 2 errors.
+# Compile of FIFO.v was successful.
+# Compile of init_fifo.v failed with 5 errors.
+# Compile of wrt_data_fifo.v failed with 7 errors.
+# Compile of rd_data_fifo.v failed with 4 errors.
+# Compile of Test FIFO.v was successful.
+# Compile of FIFO Test.v was successful.
+# Compile of FIFO_v.v was successful.
+# Compile of FIFO_v_tf.v was successful.
+# Compile of Updated Test.v was successful.
+# Compile of Ram Controller.v was successful.
+# 17 compiles, 7 failed with 32 errors.
+vsim -gui -novopt work.ram_tb
+# vsim -gui -novopt work.ram_tb 
+# Start time: 14:28:31 on Jul 19,2020
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing D:/BSEE/Semester 6/FPGA/Assignment/Ram General/work.ram_tb
+# Loading work.ram_tb
+# Refreshing D:/BSEE/Semester 6/FPGA/Assignment/Ram General/work.ram_general
+# Loading work.ram_general
+add wave -position insertpoint sim:/ram_tb/*
+run
+run
+run
+run -all
+# 
+# 	Location WRITE DATA <----RAM ----> READ DATA Status
+# 
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+# ** Note: $stop    : D:/BSEE/Semester 6/FPGA/Assignment/Ram General/Ram Test.v(21)
+#    Time: 26626 ns  Iteration: 0  Instance: /ram_tb
+# Break in Module ram_tb at D:/BSEE/Semester 6/FPGA/Assignment/Ram General/Ram Test.v line 21
+quit -sim
+# End time: 14:29:21 on Jul 19,2020, Elapsed time: 0:00:50
+# Errors: 0, Warnings: 1
+vsim -gui -novopt work.ram_tb
+# vsim -gui -novopt work.ram_tb 
+# Start time: 14:29:48 on Jul 19,2020
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.ram_tb
+# Loading work.ram_general
+add wave -position insertpoint sim:/ram_tb/*
+step
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run -all
+# 
+# 	Location WRITE DATA <----RAM ----> READ DATA Status
+# 
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+#  <------------------->  OK
+# ** Note: $stop    : D:/BSEE/Semester 6/FPGA/Assignment/Ram General/Ram Test.v(21)
+#    Time: 26626 ns  Iteration: 0  Instance: /ram_tb
+# Break in Module ram_tb at D:/BSEE/Semester 6/FPGA/Assignment/Ram General/Ram Test.v line 21
+quit -sim
+# End time: 14:32:15 on Jul 19,2020, Elapsed time: 0:02:27
+# Errors: 0, Warnings: 1
