@@ -1,0 +1,496 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/modeltech64_10.5/examples
+T_opt
+!s110 1586079035
+VWIBNc8Y41WTzM<Ao2^Tdi0
+Z1 04 7 4 work tb_fifo fast 0
+=1-48ba4e4ee5b8-5e89a53b-125-5834
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.5;63
+R0
+T_opt1
+!s110 1585857233
+VB^feG5KM^08d0Pi]]?Gm12
+04 6 4 work ram_tb fast 0
+=1-48ba4e4ee5b8-5e8642d1-126-1070
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1586094709
+Vh_l7LLXY1EH^<K4Vjh^001
+R1
+=1-48ba4e4ee5b8-5e89e275-38-4fac
+R4
+R2
+n@_opt2
+R3
+R0
+vaa
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 kI4mK;8dhOBQf7jgE8aPD0
+Ib4B@4:RR`B_oM8`k]B]lN0
+Z6 dD:/BSEE/Semester 6/FPGA/Assignment/Ram General
+w1595327168
+Z7 8D:/BSEE/Semester 6/FPGA/Assignment/Ram General/fsdf.v
+Z8 FD:/BSEE/Semester 6/FPGA/Assignment/Ram General/fsdf.v
+L0 1
+Z9 OL;L;10.5;63
+!s108 1595327171.000000
+!s107 D:/BSEE/Semester 6/FPGA/Assignment/Ram General/fsdf.v|
+Z10 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Assignment/Ram General/fsdf.v|
+!i113 0
+Z11 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vfifo_mem
+Z12 !s110 1585823856
+!i10b 1
+!s100 o42eDLHmhWiQCz7>R24DT1
+IC6A:F5;OQXl7N8_U1QI4g0
+R5
+R6
+Z13 w1585823111
+Z14 8D:/BSEE/Semester 6/FPGA/Assignment/Ram General/erg.v
+Z15 FD:/BSEE/Semester 6/FPGA/Assignment/Ram General/erg.v
+L0 4
+R9
+r1
+!s85 0
+31
+Z16 !s108 1585823856.000000
+Z17 !s107 D:/BSEE/Semester 6/FPGA/Assignment/Ram General/erg.v|
+Z18 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Assignment/Ram General/erg.v|
+!i113 0
+R11
+R2
+vfifo_tb
+!s110 1621340015
+!i10b 1
+!s100 ]5@iOTA;l0:Q?T8EebBQ63
+I:cH2P=Iz8TCaBIFNJNhJI2
+R5
+R6
+w1614191857
+8D:/BSEE/Semester 6/FPGA/Assignment/Ram General/FIFO Test.v
+FD:/BSEE/Semester 6/FPGA/Assignment/Ram General/FIFO Test.v
+Finit_fifo.v
+Z19 Fmk_infile.v
+Fwrt_data_fifo.v
+Frd_data_fifo.v
+Z20 Fcomp_data.v
+L0 1
+R9
+r1
+!s85 0
+31
+Z21 !s108 1621340014.000000
+!s107 comp_data.v|rd_data_fifo.v|wrt_data_fifo.v|mk_infile.v|init_fifo.v|D:/BSEE/Semester 6/FPGA/Assignment/Ram General/FIFO Test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Assignment/Ram General/FIFO Test.v|
+!i113 0
+R11
+R2
+vfifo_top
+Z22 !s110 1621340014
+!i10b 1
+!s100 @3_[Yj[[Z:C4LoDn0_S_V1
+I[WaC9eGfmAcl<3OUbn8e20
+R5
+R6
+w1614191985
+8D:/BSEE/Semester 6/FPGA/Assignment/Ram General/FIFO.v
+FD:/BSEE/Semester 6/FPGA/Assignment/Ram General/FIFO.v
+L0 1
+R9
+r1
+!s85 0
+31
+R21
+!s107 D:/BSEE/Semester 6/FPGA/Assignment/Ram General/FIFO.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Assignment/Ram General/FIFO.v|
+!i113 0
+R11
+R2
+vFIFO_v
+Z23 !s110 1595327290
+!i10b 1
+!s100 Kd=Q352A4BZ0lKmnR1NTW2
+If^FZjlU3gfozFH4:ZzbJ=2
+R5
+R6
+w1586024056
+8C:/Users/sarma/Downloads/FIFO_v.v
+FC:/Users/sarma/Downloads/FIFO_v.v
+L0 25
+R9
+r1
+!s85 0
+31
+Z24 !s108 1595327290.000000
+!s107 C:/Users/sarma/Downloads/FIFO_v.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/sarma/Downloads/FIFO_v.v|
+!i113 0
+R11
+R2
+n@f@i@f@o_v
+vFIFO_v_tf
+R23
+!i10b 1
+!s100 cKe?Z3]?h]oCg`M=;5LTK0
+I_YSiCUccV_Kai<T1JoOA02
+R5
+R6
+w1586024058
+8C:/Users/sarma/Downloads/FIFO_v_tf.v
+FC:/Users/sarma/Downloads/FIFO_v_tf.v
+L0 18
+R9
+r1
+!s85 0
+31
+R24
+!s107 C:/Users/sarma/Downloads/FIFO_v_tf.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/sarma/Downloads/FIFO_v_tf.v|
+!i113 0
+R11
+R2
+n@f@i@f@o_v_tf
+vfifotest
+R5
+r1
+!s85 0
+31
+!i10b 1
+!s100 l7V2]@<DQ3:;a:2Jh91OJ1
+IfO?DQh;3d[ZXWOlWnH4W43
+R6
+w1585826135
+Z25 8D:/BSEE/Semester 6/FPGA/Assignment/Ram General/Test FIFO.v
+Z26 FD:/BSEE/Semester 6/FPGA/Assignment/Ram General/Test FIFO.v
+L0 1
+R9
+!s108 1585826159.000000
+Z27 !s107 D:/BSEE/Semester 6/FPGA/Assignment/Ram General/Test FIFO.v|
+Z28 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Assignment/Ram General/Test FIFO.v|
+!i113 0
+R11
+R2
+Xinitialize_sys_v_unit
+Z29 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1585743229
+!i10b 1
+!s100 79NAX@Q2]hl>h1_FYa4Ze2
+ILhGNIH:knEMYXbC?eaiHA1
+VLhGNIH:knEMYXbC?eaiHA1
+!i103 1
+S1
+R6
+w1585743228
+8D:/BSEE/Semester 6/FPGA/Assignment/Ram General/initialize_sys.v
+FD:/BSEE/Semester 6/FPGA/Assignment/Ram General/initialize_sys.v
+L0 1
+R9
+r1
+!s85 0
+31
+!s108 1585743229.000000
+!s107 D:/BSEE/Semester 6/FPGA/Assignment/Ram General/initialize_sys.v|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/BSEE/Semester 6/FPGA/Assignment/Ram General/initialize_sys.v|
+!i113 0
+Z30 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vmemory_array
+R12
+!i10b 1
+!s100 d[UnB6>GkPd0ICjeefW5@1
+Ig<DZYkoYa1_dnIiLFAiei3
+R5
+R6
+R13
+R14
+R15
+L0 19
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R2
+Xmk_infile_v_unit
+R29
+R22
+!i10b 1
+!s100 <lIUHUdMde1Y`W8n`]ll83
+IFf3NnNMRJTMZS7oeWmVi83
+VFf3NnNMRJTMZS7oeWmVi83
+!i103 1
+S1
+R6
+w1614191757
+8D:/BSEE/Semester 6/FPGA/Assignment/Ram General/mk_infile.v
+FD:/BSEE/Semester 6/FPGA/Assignment/Ram General/mk_infile.v
+L0 1
+R9
+r1
+!s85 0
+31
+R21
+!s107 D:/BSEE/Semester 6/FPGA/Assignment/Ram General/mk_infile.v|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/BSEE/Semester 6/FPGA/Assignment/Ram General/mk_infile.v|
+!i113 0
+R30
+R2
+vram_ctrl
+Z31 !s110 1621340016
+!i10b 1
+!s100 <T99_ojhfd;L4T?zE?]i_1
+IQcJV9`a9Z8gVD1mLUQjS51
+R5
+R6
+w1586094653
+8D:/BSEE/Semester 6/FPGA/Assignment/Ram General/Ram Controller.v
+FD:/BSEE/Semester 6/FPGA/Assignment/Ram General/Ram Controller.v
+L0 1
+R9
+r1
+!s85 0
+31
+Z32 !s108 1621340016.000000
+!s107 D:/BSEE/Semester 6/FPGA/Assignment/Ram General/Ram Controller.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Assignment/Ram General/Ram Controller.v|
+!i113 0
+R11
+R2
+vram_general
+R22
+!i10b 1
+!s100 VDAUi>F;mh8o[M`Vf[HGP0
+I;ZTQULX02XU4a`O4nJ@A_1
+R5
+R6
+w1614191578
+8D:/BSEE/Semester 6/FPGA/Assignment/Ram General/Ram General.v
+FD:/BSEE/Semester 6/FPGA/Assignment/Ram General/Ram General.v
+L0 1
+R9
+r1
+!s85 0
+31
+R21
+!s107 D:/BSEE/Semester 6/FPGA/Assignment/Ram General/Ram General.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Assignment/Ram General/Ram General.v|
+!i113 0
+R11
+R2
+vram_tb
+R22
+!i10b 1
+!s100 >]m2<^97;H0LR[Ed<L]2S2
+IVLj89aF[FZljZ;o8S`=K]3
+R5
+R6
+w1614192198
+8D:/BSEE/Semester 6/FPGA/Assignment/Ram General/Ram Test.v
+FD:/BSEE/Semester 6/FPGA/Assignment/Ram General/Ram Test.v
+Finitialize_sys.v
+R19
+Fwrt_data.v
+Frd_data.v
+R20
+L0 1
+R9
+r1
+!s85 0
+31
+R21
+!s107 comp_data.v|rd_data.v|wrt_data.v|mk_infile.v|initialize_sys.v|D:/BSEE/Semester 6/FPGA/Assignment/Ram General/Ram Test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Assignment/Ram General/Ram Test.v|
+!i113 0
+R11
+R2
+vread_pointer
+R12
+!i10b 1
+!s100 OGn1@X75V<g[kd?nA@3Ve1
+IheQ^oY`L:PM`aTY]he5Rc3
+R5
+R6
+R13
+R14
+R15
+L0 36
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R2
+vstatus_signal
+R12
+!i10b 1
+!s100 6HIXQJ1SNBenK1GJiZhJO1
+Ij;_7XTU0XPB^nI;6F_i460
+R5
+R6
+R13
+R14
+R15
+L0 54
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R2
+vtaa
+R31
+!i10b 1
+!s100 ;<lZj5V1F@ac`KadnDjP70
+I9JRA8mYZ>2UN1`g>`>E<V3
+R5
+R6
+w1595327281
+R7
+R8
+L0 6
+R9
+r1
+!s85 0
+31
+R32
+!s107 D:/BSEE/Semester 6/FPGA/Assignment/Ram General/fsdf.v|
+R10
+!i113 0
+R11
+R2
+vtb_fifo
+R22
+!i10b 1
+!s100 lE`bH>kG?8_E9Nm37XBC]0
+In:3>AKP8`za7b7E3n@T9_2
+R5
+R6
+w1586094694
+R25
+R26
+L0 1
+R9
+r1
+!s85 0
+31
+R21
+R27
+R28
+!i113 0
+R11
+R2
+vtb_fifo_32
+!s110 1586010010
+!i10b 1
+!s100 dlC6N2oCeL5L`n=kUJb]72
+I<:gPEVlRQ9=S46R5V8Ui^2
+R5
+R6
+w1585826374
+R25
+R26
+L0 10
+R9
+r1
+!s85 0
+31
+!s108 1586010010.000000
+R27
+R28
+!i113 0
+R11
+R2
+vtest
+R5
+r1
+!s85 0
+31
+!i10b 1
+!s100 _d1he3AVlWaFGPa6=AYMB2
+IARTRIW:m0fQPcVS19m3cH1
+R6
+w1586005005
+8D:/BSEE/Semester 6/FPGA/Assignment/Ram General/Testing testing.v
+FD:/BSEE/Semester 6/FPGA/Assignment/Ram General/Testing testing.v
+L0 1
+R9
+!s108 1586005007.000000
+!s107 D:/BSEE/Semester 6/FPGA/Assignment/Ram General/Testing testing.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Assignment/Ram General/Testing testing.v|
+!i113 0
+R11
+R2
+vupdate_fifo_top
+R31
+!i10b 1
+!s100 MN8jK<C1TYRR`QJlQINmY2
+I:Oi3]QhGMQc=5i<MDY8z53
+R5
+R6
+w1586094638
+8D:/BSEE/Semester 6/FPGA/Assignment/Ram General/Updated Test.v
+FD:/BSEE/Semester 6/FPGA/Assignment/Ram General/Updated Test.v
+L0 1
+R9
+r1
+!s85 0
+31
+R32
+!s107 D:/BSEE/Semester 6/FPGA/Assignment/Ram General/Updated Test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Assignment/Ram General/Updated Test.v|
+!i113 0
+R11
+R2
+vwrite_pointer
+R12
+!i10b 1
+!s100 S>SGY4Ucm0<4X`^d1?`VU1
+IEi04EfjzO^REiNBIUfU0Z2
+R5
+R6
+R13
+R14
+R15
+L0 97
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R2
