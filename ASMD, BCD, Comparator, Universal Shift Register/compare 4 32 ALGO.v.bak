@@ -1,0 +1,34 @@
+//______________________________________________________\\
+//_____Compare 4 32-bit numbers without equalization_____\\
+//________________________________________________________\\
+module ALGO_4_32 (GTE, LTE, A,B,C,D);
+output reg [3:0] GTE, LTE;     //Port Declarations
+input [31:0] A,B,C,D;
+always @(A,B,C,D) begin		//Behavioral Level Logic
+GTE =0; LTE = 0;		//Initialization
+if ((A>=B)&&(A>=C)&&(A>=D)) GTE=GTE|4'b1000; //A is Greatest
+if ((B>=A)&&(B>=C)&&(B>=D)) GTE=GTE|4'b0100; //B is Greatest	
+if ((C>=A)&&(C>=B)&&(C>=D)) GTE=GTE|4'b0010; //C is Greatest
+if ((D>=A)&&(D>=B)&&(D>=C)) GTE=GTE|4'b0001; //D is Greatest
+if ((A<=B)&&(A<=C)&&(A<=D)) LTE=LTE|4'b1000; //A is Lowest
+if ((B<=A)&&(B<=C)&&(B<=D)) LTE=LTE|4'b0100; //B is Lowest
+if ((C<=A)&&(C<=B)&&(C<=D)) LTE=LTE|4'b0010; //C is Lowest
+if ((D<=A)&&(D<=B)&&(D<=C)) LTE=LTE|4'b0001; //D is Lowest
+end endmodule 
+
+//_______________________________________________________\\
+//_______Compare 4 32-bit numbers with equalization_______\\
+//_________________________________________________________\\
+module ALGO_4_32_E (AGT,BGT,CGT,DGT,ALT,BLT,CLT,DLT,A,B,C,D);
+output reg AGT,BGT,CGT,DGT,ALT,BLT,CLT,DLT;
+input [31:0] A,B,C,D;		//Port Declarations
+always @(A,B,C,D) begin		//Behavioral Level Logic
+AGT = (A>=B)&&(A>=C)&&(A>=D);	//A is Greatest
+BGT = (B>=A)&&(B>=C)&&(B>=D);	//B is Greatest	
+CGT = (C>=A)&&(C>=B)&&(C>=D);	//C is Greatest
+DGT = (D>=A)&&(D>=B)&&(D>=C);	//D is Greatest
+ALT = (A<=B)&&(A<=C)&&(A<=D);	//A is Lowest
+BLT = (B<=A)&&(B<=C)&&(B<=D);	//B is Lowest
+CLT = (C<=A)&&(C<=B)&&(C<=D);	//C is Lowest
+DLT = (D<=A)&&(D<=B)&&(D<=C);	//D is Lowest
+end endmodule 

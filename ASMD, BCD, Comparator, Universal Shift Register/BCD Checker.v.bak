@@ -1,0 +1,11 @@
+//_____________________________________\\
+//___________BCD Checker________________\\
+//_______________________________________\\
+module BCD_checker (data, flag);
+output reg flag;	//Port Declarations
+input [3:0] data;
+always @ (data)		//Behavioral Block
+case (data)	//Case for checking BCD
+0,1,2,3,4,5,6,7,8,9: flag = 0;
+default: flag = 1;	//When not BCD
+endcase endmodule 

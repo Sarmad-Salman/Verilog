@@ -1,0 +1,32 @@
+//__________________________________________________________________\\
+//______________Universal Shift Register Test Bench__________________\\
+//____________________________________________________________________\\
+module universal_shift_reg_test();
+wire [3:0] dout; reg [3:0] din;		//Port Decalarations
+reg clk , MSBin, LSBin, s1, s0, rst;
+wire MSBout, LSBout;	//Intermediate Wires
+always #5 clk=~clk;	//Frequency of Clock
+//Calling Instance
+Universal_shift_reg inst1(dout, din, MSBout, LSBout, MSBin, LSBin,
+						 s1, s0, clk, rst);
+initial #1000 $stop;	//Stop simuation after certain time steps
+//using Fork Join constructs for parallel execution of all blocks
+initial fork
+clk = 1'b0; begin #5 rst =1; #20 rst =0; end
+begin #120 rst =1; #20 rst =0; end	//Initializing Clock and Reset
+begin #260 rst =1; #20 rst =0; end
+begin #380 rst =1; #20 rst =0; end join
+initial fork
+#10 fork #10 begin 	//Verify Right Shift
+din=4'b1111; s0=0; s1=0; LSBin=1; MSBin=1; end
+#40 s0=1; join
+#120 fork begin		//Verify Left Shift
+#10 din=4'b1111; s0=0; s1=0; LSBin=1; MSBin=1; end
+#40 s1=1; join
+#250 fork begin		//Verify Parallel Load
+#10 din=4'b1111; s0=0; s1=0; LSBin=1; MSBin=1; end
+#40 begin s0=1; s1=1; end join
+#320 fork begin		//Reset
+#10 din=4'b1111; s0=0; s1=0; LSBin=1; MSBin=1; end
+#40 begin s0=0; s1=0; end
+join join endmodule 

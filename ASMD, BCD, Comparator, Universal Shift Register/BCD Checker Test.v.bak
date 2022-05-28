@@ -1,0 +1,12 @@
+//___________________________________________\\
+//________BCD Checker Test Bench______________\\
+//_____________________________________________\\
+module BCD_check_test();
+wire flag;	//Port Declarations
+reg [3:0] data; 
+BCD_checker inst1(data, flag); //Calling Instance
+initial begin
+for (data =0; data<=15; data = data+1)
+//Checking for all 16 possibilities
+if (data ==16) data =0; else
+#1 data = data; end endmodule 

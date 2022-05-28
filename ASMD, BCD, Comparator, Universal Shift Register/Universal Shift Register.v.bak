@@ -1,0 +1,17 @@
+//_________________________________________________________\\
+//_______________Universal Shift Register___________________\\
+//___________________________________________________________\\
+module Universal_shift_reg(dout, din, MSBout, LSBout,
+			 MSBin, LSBin, s1,s0,clk,rst);
+output reg [3:0] dout;		//Port Declarations
+output MSBout, LSBout;
+input [3:0] din; input MSBin, LSBin, s1, s0, clk, rst;
+assign MSBout = dout[3];    //Most Significant Bit
+assign LSBout = dout[0];    //Least Significant Bit
+always @(posedge clk) begin	//Behavioral Block
+if (rst) dout<=0; else case ({s1, s0})//Using case statements
+0: dout<=dout;		//Idle
+1: dout<={MSBin,dout[3:1]};	//Shift Right
+2: dout<={dout[2:0], LSBin};	//Shift Left
+3: dout<= din;		//Parallel Load
+endcase end endmodule 
