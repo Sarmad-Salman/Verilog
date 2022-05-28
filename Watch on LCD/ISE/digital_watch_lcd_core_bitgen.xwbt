@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\phi\LAB7\lab7\digital_watch_lcd_core.ncd
+OUTFILE=D:\phi\LAB7\lab7\digital_watch_lcd_core.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=D:\phi\LAB7\lab7
+LICENSE=WebPack
+USER_INFO=__0_0_0

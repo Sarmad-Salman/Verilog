@@ -1,0 +1,4 @@
+EN lcd_driver NULL D:/phi/LAB7/lab7/driver.vhd sub00/vhpl00 1341906179
+MO digital_watch_lcd_core NULL lcd.v vlg02/digital__watch__lcd__core.bin 1072905681
+AR lcd_driver behavioral D:/phi/LAB7/lab7/driver.vhd sub00/vhpl01 1341906180
+MO digital_watch_core NULL "Digital Watch.v" vlg18/digital__watch__core.bin 1072905681
