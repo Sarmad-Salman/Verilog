@@ -1,0 +1,177 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/BSEE/Semester 6/FPGA/Labs/6
+Ecounter
+Z0 w1613671473
+Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z5 dD:/BSEE/Semester 6/FPGA/Labs/7
+Z6 8D:/BSEE/Semester 6/FPGA/Labs/7/counter.vhd
+Z7 FD:/BSEE/Semester 6/FPGA/Labs/7/counter.vhd
+l0
+L5
+VgecO=[G:_>D=5O0X]0<CC0
+!s100 ^cOj2K4h9ZekEkKFaQI0C2
+Z8 OL;C;10.5;63
+32
+Z9 !s110 1613672254
+!i10b 1
+Z10 !s108 1613672254.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Labs/7/counter.vhd|
+Z12 !s107 D:/BSEE/Semester 6/FPGA/Labs/7/counter.vhd|
+!i113 0
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Abehave
+R1
+R2
+R3
+R4
+DEx4 work 7 counter 0 22 gecO=[G:_>D=5O0X]0<CC0
+l16
+L14
+VcdXmoIa0R<fX1:SN>GWk02
+!s100 i[zGXS1h@n`fSn=Zi2RWk1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+vdigclk_t
+Z15 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 e3lOoBZ<;HJEkJ[=OcgP00
+Ilh>WbR^hia8JCgkQXU6Pa1
+R5
+w1614105428
+8D:/BSEE/Semester 6/FPGA/Labs/6/Test.v
+FD:/BSEE/Semester 6/FPGA/Labs/6/Test.v
+L0 1
+Z16 OL;L;10.5;63
+Z17 !s108 1614105475.000000
+!s107 D:/BSEE/Semester 6/FPGA/Labs/6/Test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Labs/6/Test.v|
+!i113 0
+Z18 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z19 tCvgOpt 0
+vdigital_watch_core
+R15
+r1
+!s85 0
+31
+!i10b 1
+!s100 CVT>9M2Y>1H?o0:V0mS7j1
+I>0[XPMgK@3Z93=P19N]]d1
+R5
+w1613677687
+8D:/BSEE/Semester 6/FPGA/Labs/7/Digital Watch.v
+FD:/BSEE/Semester 6/FPGA/Labs/7/Digital Watch.v
+L0 1
+R16
+R17
+!s107 D:/BSEE/Semester 6/FPGA/Labs/7/Digital Watch.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Labs/7/Digital Watch.v|
+!i113 0
+R18
+R19
+vdigital_watch_lcd_core
+R15
+r1
+!s85 0
+31
+!i10b 1
+!s100 m6b36:kbY2[SOLJX;^JLg0
+I=^7hojlFhPfT<^[YIZ70a0
+R5
+w1614105473
+8D:/BSEE/Semester 6/FPGA/Labs/7/lcd.v
+FD:/BSEE/Semester 6/FPGA/Labs/7/lcd.v
+L0 2
+R16
+R17
+!s107 D:/BSEE/Semester 6/FPGA/Labs/7/lcd.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Labs/7/lcd.v|
+!i113 0
+R18
+R19
+Elcd_driver
+Z20 w1072903032
+R2
+R1
+R3
+R4
+R5
+Z21 8D:/BSEE/Semester 6/FPGA/Labs/7/driver.vhd
+Z22 FD:/BSEE/Semester 6/FPGA/Labs/7/driver.vhd
+l0
+L40
+VN<OG@7DoT@Nc48Sb1QS2M2
+!s100 ARlQ9gSGEP_PlcGbhMN8m0
+R8
+32
+Z23 !s110 1614105475
+!i10b 1
+R17
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Labs/7/driver.vhd|
+Z25 !s107 D:/BSEE/Semester 6/FPGA/Labs/7/driver.vhd|
+!i113 0
+R13
+R14
+Abehavioral
+R2
+R1
+R3
+R4
+DEx4 work 10 lcd_driver 0 22 N<OG@7DoT@Nc48Sb1QS2M2
+32
+R23
+l94
+L55
+VEO>fzY<ZgV;VUio0:SoFJ3
+!s100 99gi4FlCKhSfIjHR:J:iW1
+R8
+!i10b 1
+R17
+R24
+R25
+!i113 0
+R13
+R14
+vslowClock
+R15
+r1
+!s85 0
+31
+!i10b 1
+!s100 :M`lda>>37zo:2nJYCl2g0
+IKa6?dBB24cFV27hKL8m4:3
+R5
+w1614105451
+8D:/BSEE/Semester 6/FPGA/Labs/6/Slow Clock.v
+FD:/BSEE/Semester 6/FPGA/Labs/6/Slow Clock.v
+L0 1
+R16
+R17
+!s107 D:/BSEE/Semester 6/FPGA/Labs/6/Slow Clock.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Labs/6/Slow Clock.v|
+!i113 0
+R18
+R19
+nslow@clock
