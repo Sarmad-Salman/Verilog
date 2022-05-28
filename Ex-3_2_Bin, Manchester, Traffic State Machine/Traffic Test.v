@@ -1,0 +1,15 @@
+//_______________________________________________
+//_______Traffic Controller Testbench____________
+//_______________________________________________
+`timescale 1ns/1ps
+module traffic_test();
+reg rst_n, enable, clk;		//Port Definitions
+wire [2:0] road1_out, road2_out, ped1, ped2;
+initial begin
+clk = 1;enable = 0; rst_n = 0;		//Initial Conditions
+#100 rst_n = 1; #50 rst_n = 0; #2000 enable = 1;
+# 200000 $stop; end always #50 clk = ~clk ;
+traffic_controller traffic_controller_inst (.clk(clk),	//Instantiation of module
+.rst_n(rst_n),.enable(enable),.road1_out(road1_out),
+.road2_out(road2_out),.ped1(ped1),.ped2(ped2));
+endmodule 

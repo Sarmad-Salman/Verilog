@@ -1,0 +1,20 @@
+//_________________________________________________________
+//_______________Counter___________________________________
+//_________________________________________________________
+module cnter_enb_ovf (clk,rst_n,enable ,overflow ,cnt_val);
+parameter BITS = 32;			//Parameter to be passed
+parameter MAX = 40000000 ;
+input clk, rst_n, enable;		//---- Port Declarations ----
+output reg overflow ;
+output reg [BITS-1:0] cnt_val ;
+always @(posedge clk or negedge rst_n) //Behavioral Block
+begin if(rst_n) begin			//Active Low Reset
+cnt_val <= 0; overflow <= 1'b0; end
+else if(enable) begin
+if(cnt_val == MAX-1) begin
+cnt_val <= 0; overflow <= 1'b1;		//Counter Full
+end else begin
+cnt_val <= cnt_val + 1; overflow <= 1'b0;
+end end else begin
+cnt_val <= cnt_val ; overflow <= 1'b0;
+end end endmodule 

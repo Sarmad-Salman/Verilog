@@ -1,0 +1,237 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/BSEE/Semester 6/FPGA/Assignment/Mealy and Moore Machines
+vcnter_enb_ovf
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 H@^;g=Qein3>hD;UGgI9J1
+IV><iDk7UGVN=1i;>[13=Y2
+Z1 dD:/BSEE/Semester 6/FPGA/Assignment/Module 4
+w1587405648
+8D:/BSEE/Semester 6/FPGA/Assignment/Module 4/Counter.v
+FD:/BSEE/Semester 6/FPGA/Assignment/Module 4/Counter.v
+L0 4
+Z2 OL;L;10.5;63
+Z3 !s108 1587411906.000000
+!s107 D:/BSEE/Semester 6/FPGA/Assignment/Module 4/Counter.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Assignment/Module 4/Counter.v|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z5 tCvgOpt 0
+vEx_3_to_Bin
+Z6 !s110 1587411906
+!i10b 1
+!s100 17Z?;NS6=W1og0I[VJ@z>0
+I7R;aUMEzR2@RN6CiF2SK]0
+R0
+R1
+w1587385233
+8D:/BSEE/Semester 6/FPGA/Assignment/Module 4/Ex-3 to Bin.v
+FD:/BSEE/Semester 6/FPGA/Assignment/Module 4/Ex-3 to Bin.v
+L0 4
+R2
+r1
+!s85 0
+31
+R3
+!s107 D:/BSEE/Semester 6/FPGA/Assignment/Module 4/Ex-3 to Bin.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Assignment/Module 4/Ex-3 to Bin.v|
+!i113 0
+R4
+R5
+n@ex_3_to_@bin
+vmanchester
+R6
+!i10b 1
+!s100 VLde`1e[9=W5;ffb9f@NS0
+Ih0^HGZ5D@T:07O];:VYzl2
+R0
+R1
+w1587393831
+8D:/BSEE/Semester 6/FPGA/Assignment/Module 4/Manchester.v
+FD:/BSEE/Semester 6/FPGA/Assignment/Module 4/Manchester.v
+L0 4
+R2
+r1
+!s85 0
+31
+R3
+!s107 D:/BSEE/Semester 6/FPGA/Assignment/Module 4/Manchester.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Assignment/Module 4/Manchester.v|
+!i113 0
+R4
+R5
+vmanchestertest
+R6
+!i10b 1
+!s100 N3L7:0GXE^e_M?KP:^AEW1
+Icdz6_lU41=[K;QcBCzmL@2
+R0
+R1
+w1587399779
+8D:/BSEE/Semester 6/FPGA/Assignment/Module 4/Manchester Test.v
+FD:/BSEE/Semester 6/FPGA/Assignment/Module 4/Manchester Test.v
+L0 4
+R2
+r1
+!s85 0
+31
+R3
+!s107 D:/BSEE/Semester 6/FPGA/Assignment/Module 4/Manchester Test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Assignment/Module 4/Manchester Test.v|
+!i113 0
+R4
+R5
+vmoore
+!s110 1587233357
+!i10b 1
+!s100 8nWB4A1b9R3MMLDXZ=1oZ1
+I<C5bXa;0b0bDkiVaOKGoS0
+R0
+R1
+w1586617693
+8D:/BSEE/Semester 6/FPGA/Assignment/Mealy and Moore Machines/Moore Machine.v
+FD:/BSEE/Semester 6/FPGA/Assignment/Mealy and Moore Machines/Moore Machine.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1587233357.000000
+!s107 D:/BSEE/Semester 6/FPGA/Assignment/Mealy and Moore Machines/Moore Machine.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Assignment/Mealy and Moore Machines/Moore Machine.v|
+!i113 0
+R4
+R5
+vmooreex3tobintest
+R6
+!i10b 1
+!s100 4XYYgN8>kPo`XKZL1_W6h0
+I1eKHDHLNRzcOUH8j@[YB=2
+R0
+R1
+w1587385626
+8D:/BSEE/Semester 6/FPGA/Assignment/Module 4/Ex-3 to Bin Test.v
+FD:/BSEE/Semester 6/FPGA/Assignment/Module 4/Ex-3 to Bin Test.v
+L0 4
+R2
+r1
+!s85 0
+31
+R3
+!s107 D:/BSEE/Semester 6/FPGA/Assignment/Module 4/Ex-3 to Bin Test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Assignment/Module 4/Ex-3 to Bin Test.v|
+!i113 0
+R4
+R5
+vtraffic_controller
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 n_XnF<oJIW;aINV@>UXb^2
+IhEWcekG3ai>nRMH1W4TR10
+R1
+w1587411418
+8D:/BSEE/Semester 6/FPGA/Assignment/Module 4/Traffic Controller.v
+FD:/BSEE/Semester 6/FPGA/Assignment/Module 4/Traffic Controller.v
+L0 4
+R2
+R3
+!s107 D:/BSEE/Semester 6/FPGA/Assignment/Module 4/Traffic Controller.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Assignment/Module 4/Traffic Controller.v|
+!i113 0
+R4
+R5
+vtraffic_sm
+R6
+!i10b 1
+!s100 e0[g@;:9Lf1KZUjgK08Th1
+IR9ge`3M@kfN`KCJ3zEE=F1
+R0
+R1
+w1587406081
+Z7 8D:/BSEE/Semester 6/FPGA/Assignment/Module 4/Traffic SM.v
+Z8 FD:/BSEE/Semester 6/FPGA/Assignment/Module 4/Traffic SM.v
+L0 4
+R2
+r1
+!s85 0
+31
+R3
+Z9 !s107 D:/BSEE/Semester 6/FPGA/Assignment/Module 4/Traffic SM.v|
+Z10 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Assignment/Module 4/Traffic SM.v|
+!i113 0
+R4
+R5
+vtraffic_sm2
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 _1S0aUK4NGRWQac]c0cH:3
+IOe<c`HJCO_HMF6I:Q]nA;2
+R1
+w1587411812
+8D:/BSEE/Semester 6/FPGA/Assignment/Module 4/Traffin SM2.v
+FD:/BSEE/Semester 6/FPGA/Assignment/Module 4/Traffin SM2.v
+L0 4
+R2
+!s108 1587411907.000000
+!s107 D:/BSEE/Semester 6/FPGA/Assignment/Module 4/Traffin SM2.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Assignment/Module 4/Traffin SM2.v|
+!i113 0
+R4
+R5
+vtraffic_test
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 TzC`Bm81ZkH_OlQS@0o>21
+I8@J?XAbkXM=gK@?M5IT>o1
+R1
+w1587411441
+8D:/BSEE/Semester 6/FPGA/Assignment/Module 4/Traffic Test.v
+FD:/BSEE/Semester 6/FPGA/Assignment/Module 4/Traffic Test.v
+L0 5
+R2
+R3
+!s107 D:/BSEE/Semester 6/FPGA/Assignment/Module 4/Traffic Test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Assignment/Module 4/Traffic Test.v|
+!i113 0
+R4
+R5
+vtrafficsm
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 FeS[67cB5n3bRhQ7_D1?:0
+I319?3DAL@N7][TQRJm3WL1
+R1
+w1587321077
+R7
+R8
+L0 1
+R2
+!s108 1587321904.000000
+R9
+R10
+!i113 0
+R4
+R5
