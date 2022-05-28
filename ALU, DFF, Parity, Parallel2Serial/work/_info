@@ -1,0 +1,237 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/BSEE/Semester 6/FPGA/Assignment/Module 4
+valu
+Z0 !s110 1588353039
+!i10b 1
+!s100 e56=1ZNSZEMfHiETj4GkI3
+IemRkJ:3EnSZzaOICDBd@d3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/BSEE/Semester 6/FPGA/Assignment/Module 5
+w1588281972
+8D:/BSEE/Semester 6/FPGA/Assignment/Module 5/ALU.v
+FD:/BSEE/Semester 6/FPGA/Assignment/Module 5/ALU.v
+L0 4
+Z3 OL;L;10.5;63
+r1
+!s85 0
+31
+Z4 !s108 1588353039.000000
+!s107 D:/BSEE/Semester 6/FPGA/Assignment/Module 5/ALU.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Assignment/Module 5/ALU.v|
+!i113 0
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 tCvgOpt 0
+valu_test
+Z7 !s110 1588353040
+!i10b 1
+!s100 53Gah`8GOZ^SfGM^6g0Ye0
+IZXMKFhK=YBPbWk_JV@RLR3
+R1
+R2
+w1588282009
+8D:/BSEE/Semester 6/FPGA/Assignment/Module 5/ALU Test.v
+FD:/BSEE/Semester 6/FPGA/Assignment/Module 5/ALU Test.v
+L0 4
+R3
+r1
+!s85 0
+31
+Z8 !s108 1588353040.000000
+!s107 D:/BSEE/Semester 6/FPGA/Assignment/Module 5/ALU Test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Assignment/Module 5/ALU Test.v|
+!i113 0
+R5
+R6
+vdff_2
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 II=X@K3@^@GRbL7C<d^[j0
+I3APk[GQCU3K0oeTB]MVLN2
+R2
+Z9 w1588352951
+Z10 8D:/BSEE/Semester 6/FPGA/Assignment/Module 5/DFF.v
+Z11 FD:/BSEE/Semester 6/FPGA/Assignment/Module 5/DFF.v
+L0 11
+R3
+R8
+Z12 !s107 D:/BSEE/Semester 6/FPGA/Assignment/Module 5/DFF.v|
+Z13 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Assignment/Module 5/DFF.v|
+!i113 0
+R5
+R6
+vdff_4
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 0_DljDWDCHEmXgC>4N8^E2
+I4S<J7QI9NTajdRH`k=0?P3
+R2
+R9
+R10
+R11
+L0 4
+R3
+R8
+R12
+R13
+!i113 0
+R5
+R6
+vdff_param
+R0
+!i10b 1
+!s100 Ao_Oe`c5K?348BT76nXQd0
+IizTzCUSOK=hPbB>L?O>0D1
+R1
+R2
+w1588280800
+8D:/BSEE/Semester 6/FPGA/Assignment/Module 5/DFF parameter.v
+FD:/BSEE/Semester 6/FPGA/Assignment/Module 5/DFF parameter.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/BSEE/Semester 6/FPGA/Assignment/Module 5/DFF parameter.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Assignment/Module 5/DFF parameter.v|
+!i113 0
+R5
+R6
+vdff_test
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ^UfLz5Jf:JURIZ_e6>amE2
+I:oWg:j5j`>EB]>b0KaVWf1
+R2
+w1588281043
+8D:/BSEE/Semester 6/FPGA/Assignment/Module 5/DFF Test.v
+FD:/BSEE/Semester 6/FPGA/Assignment/Module 5/DFF Test.v
+L0 4
+R3
+R4
+!s107 D:/BSEE/Semester 6/FPGA/Assignment/Module 5/DFF Test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Assignment/Module 5/DFF Test.v|
+!i113 0
+R5
+R6
+vdff_top
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 SgV><IG3FOjVYUF59;6;_1
+IhW9DCeU7d;G]2n07R`;>P1
+R2
+w1588353038
+8D:/BSEE/Semester 6/FPGA/Assignment/Module 5/DFF Top.v
+FD:/BSEE/Semester 6/FPGA/Assignment/Module 5/DFF Top.v
+L0 4
+R3
+R4
+!s107 D:/BSEE/Semester 6/FPGA/Assignment/Module 5/DFF Top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Assignment/Module 5/DFF Top.v|
+!i113 0
+R5
+R6
+vpar_ser
+R0
+!i10b 1
+!s100 ca[8T6SUG@ncR95U3VJ]X3
+IioV2M=8HNLl:0eeB>I=Hf3
+R1
+R2
+w1588282672
+8D:/BSEE/Semester 6/FPGA/Assignment/Module 5/Parallel to Serial.v
+FD:/BSEE/Semester 6/FPGA/Assignment/Module 5/Parallel to Serial.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/BSEE/Semester 6/FPGA/Assignment/Module 5/Parallel to Serial.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Assignment/Module 5/Parallel to Serial.v|
+!i113 0
+R5
+R6
+vpar_ser_test
+R7
+!i10b 1
+!s100 MR<HIAfHh8TOQ;mk2Y>aG0
+IV=1MEjeN9hF3hTnL0oiD32
+R1
+R2
+w1588283720
+8D:/BSEE/Semester 6/FPGA/Assignment/Module 5/Parallel to Serial Test.v
+FD:/BSEE/Semester 6/FPGA/Assignment/Module 5/Parallel to Serial Test.v
+L0 4
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/BSEE/Semester 6/FPGA/Assignment/Module 5/Parallel to Serial Test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Assignment/Module 5/Parallel to Serial Test.v|
+!i113 0
+R5
+R6
+vparity
+R0
+!i10b 1
+!s100 Y50hWH_TVRW]7LgiIW<e@3
+I@`e=>`YM4oZ[ZPd;SS[o22
+R1
+R2
+w1588281390
+8D:/BSEE/Semester 6/FPGA/Assignment/Module 5/Parity.v
+FD:/BSEE/Semester 6/FPGA/Assignment/Module 5/Parity.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/BSEE/Semester 6/FPGA/Assignment/Module 5/Parity.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Assignment/Module 5/Parity.v|
+!i113 0
+R5
+R6
+vparity_test
+R7
+!i10b 1
+!s100 hT8nX;FikVhCN_gXCM>DD3
+I_]OjGa@@XH6UCl<ahD5PH3
+R1
+R2
+w1588281501
+8D:/BSEE/Semester 6/FPGA/Assignment/Module 5/Parity Test.v
+FD:/BSEE/Semester 6/FPGA/Assignment/Module 5/Parity Test.v
+L0 4
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/BSEE/Semester 6/FPGA/Assignment/Module 5/Parity Test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Assignment/Module 5/Parity Test.v|
+!i113 0
+R5
+R6

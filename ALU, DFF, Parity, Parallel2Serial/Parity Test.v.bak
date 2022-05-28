@@ -1,0 +1,9 @@
+module parity_test();
+reg even_odd; wire par_out;
+reg [7:0] data_in;
+parity inst1(data_in, even_odd, par_out);
+initial begin
+even_odd = 0;
+data_in = 8'b10101010;
+#10 even_odd = 1;
+end endmodule 

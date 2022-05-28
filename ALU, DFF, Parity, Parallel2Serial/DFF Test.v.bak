@@ -1,0 +1,10 @@
+module dff_test();
+reg clk; reg [3:0] in;
+wire [1:0] out;
+dff_top insta(clk, in, out);
+initial begin
+clk = 0;
+in = 4'b1100;
+#500 $stop; end
+always #50 clk = ~clk;
+endmodule 

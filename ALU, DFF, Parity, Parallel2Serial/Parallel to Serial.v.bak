@@ -1,0 +1,12 @@
+module par_ser(clk,rst,strobe,d_in,d_out);
+input [7:0] d_in;
+input clk, rst, strobe;
+output d_out;
+reg [7:0] temp;
+always @(posedge clk) begin
+if (rst) temp<=8'b00000000;
+else if (strobe) temp<=d_in;
+else temp [7:0] <={temp[6:0], 1'b0};
+end
+assign d_out = temp[7];
+endmodule 
