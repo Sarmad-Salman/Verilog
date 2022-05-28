@@ -1,0 +1,203 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Misc/Muffin
+vbin_count_t
+Z0 !s110 1595004015
+!i10b 1
+!s100 DegTicZGm:[LO<iWIgP7c0
+I5IF81CbW_Bn0UQW7N0F;e0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/BSEE/Semester 6/FPGA/Assignment/Module 8-10
+w1590051460
+8D:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/Bin Counter RTL Test.v
+FD:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/Bin Counter RTL Test.v
+L0 4
+Z3 OL;L;10.5;63
+r1
+!s85 0
+31
+Z4 !s108 1595004015.000000
+!s107 D:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/Bin Counter RTL Test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/Bin Counter RTL Test.v|
+!i113 0
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 tCvgOpt 0
+vbin_counter_rtl
+R0
+!i10b 1
+!s100 :UaVQW`M;K;L:kNiDeaB83
+I<WNmdBgRh;II22fm56@SI2
+R1
+R2
+Z7 w1590051904
+Z8 8D:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/Binary Counter RTL.v
+Z9 FD:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/Binary Counter RTL.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+Z10 !s107 D:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/Binary Counter RTL.v|
+Z11 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/Binary Counter RTL.v|
+!i113 0
+R5
+R6
+vControl_unit
+R0
+!i10b 1
+!s100 _>jTQHXNQ<55`OTNDcKBB0
+I4^KgAL]1HeAD`>kNJ3M@60
+R1
+R2
+R7
+R8
+R9
+L0 13
+R3
+r1
+!s85 0
+31
+R4
+R10
+R11
+!i113 0
+R5
+R6
+n@control_unit
+vControl_unit_3
+R0
+!i10b 1
+!s100 @V8iV<;2_Z5ekiSRdCKUZ2
+I3FDggcMV;zHUaGPZ5e5^M3
+R1
+R2
+R7
+R8
+R9
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+R10
+R11
+!i113 0
+R5
+R6
+n@control_unit_3
+vDatapath_unit
+R0
+!i10b 1
+!s100 9Mmhahe59ncYT0]=Z`:X73
+I3m?Ok@C_U`i1UmMm<Mziz2
+R1
+R2
+R7
+R8
+R9
+L0 18
+R3
+r1
+!s85 0
+31
+R4
+R10
+R11
+!i113 0
+R5
+R6
+n@datapath_unit
+vdiscrete_sys_core
+R0
+!i10b 1
+!s100 lAHoC?JW7TJ@THmSc6BY<3
+IC5f93;EIFBTF7YPJO0oKj2
+R1
+R2
+w1590052099
+8D:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/Discrete System.v
+FD:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/Discrete System.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/Discrete System.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/Discrete System.v|
+!i113 0
+R5
+R6
+viir_tb
+R0
+!i10b 1
+!s100 dcAk8W2a@JSf<bV>_2hha0
+IJVb@:^Njd?KkK4Qz[M[7U2
+R1
+R2
+w1590052245
+8D:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/Discrete System Test.v
+FD:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/Discrete System Test.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/Discrete System Test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/Discrete System Test.v|
+!i113 0
+R5
+R6
+vnanD
+Z12 !s110 1595004016
+!i10b 1
+!s100 i_HZZ<>=7?Q:R^mgce;WN1
+IE67LSOc<>70[YSbjoV9`>1
+R1
+R2
+w1595004014
+8D:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/Nand.v
+FD:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/Nand.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/Nand.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/Nand.v|
+!i113 0
+R5
+R6
+nnan@d
+vnandtb
+R12
+!i10b 1
+!s100 I3G9N@BNVMZAW@VdT;ceb1
+I:Ni?KAjL`88R^ZD2O3R=12
+R1
+R2
+w1595003607
+8D:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/Nand Test.v
+FD:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/Nand Test.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1595004016.000000
+!s107 D:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/Nand Test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/Nand Test.v|
+!i113 0
+R5
+R6

@@ -1,0 +1,103 @@
+# Compile of Binary Counter RTL.v was successful.
+# Compile of Bin Counter RTL Test.v was successful.
+# Compile of Discrete System.v was successful.
+# Compile of Discrete System Test.v was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of Binary Counter RTL.v was successful.
+# Compile of Bin Counter RTL Test.v was successful.
+# Compile of Discrete System.v was successful.
+# Compile of Discrete System Test.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.iir_tb -novopt
+# vsim -gui work.iir_tb -novopt 
+# Start time: 23:46:27 on May 20,2020
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing D:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/work.iir_tb
+# Loading work.iir_tb
+# Refreshing D:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/work.discrete_sys_core
+# Loading work.discrete_sys_core
+add wave -position insertpoint sim:/iir_tb/*
+run -all
+# ** Note: $stop    : D:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/Discrete System Test.v(15)
+#    Time: 1 us  Iteration: 0  Instance: /iir_tb
+# Break in Module iir_tb at D:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/Discrete System Test.v line 15
+quit -sim
+# End time: 23:47:04 on May 20,2020, Elapsed time: 0:00:37
+# Errors: 0, Warnings: 1
+# Compile of Binary Counter RTL.v was successful.
+# Compile of Bin Counter RTL Test.v was successful.
+# Compile of Discrete System.v was successful.
+# Compile of Discrete System Test.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui -novopt work.iir_tb
+# vsim -gui -novopt work.iir_tb 
+# Start time: 23:47:48 on May 20,2020
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing D:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/work.iir_tb
+# Loading work.iir_tb
+# Refreshing D:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/work.discrete_sys_core
+# Loading work.discrete_sys_core
+add wave -position insertpoint sim:/iir_tb/*
+run -all
+# ** Note: $stop    : D:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/Discrete System Test.v(15)
+#    Time: 2 us  Iteration: 0  Instance: /iir_tb
+# Break in Module iir_tb at D:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/Discrete System Test.v line 15
+quit -sim
+# End time: 23:48:11 on May 20,2020, Elapsed time: 0:00:23
+# Errors: 0, Warnings: 1
+vsim -gui -novopt work.iir_tb
+# vsim -gui -novopt work.iir_tb 
+# Start time: 23:48:18 on May 20,2020
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.iir_tb
+# Loading work.discrete_sys_core
+add wave -position insertpoint sim:/iir_tb/*
+run -all
+# ** Note: $stop    : D:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/Discrete System Test.v(15)
+#    Time: 2 us  Iteration: 0  Instance: /iir_tb
+# Break in Module iir_tb at D:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/Discrete System Test.v line 15
+quit -sim
+# End time: 23:48:50 on May 20,2020, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 1
+# Compile of Binary Counter RTL.v was successful.
+# Compile of Bin Counter RTL Test.v was successful.
+# Compile of Discrete System.v was successful.
+# Compile of Discrete System Test.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui -novopt work.iir_tb
+# vsim -gui -novopt work.iir_tb 
+# Start time: 23:49:06 on May 20,2020
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing D:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/work.iir_tb
+# Loading work.iir_tb
+# Refreshing D:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/work.discrete_sys_core
+# Loading work.discrete_sys_core
+add wave -position insertpoint sim:/iir_tb/*
+run -all
+# ** Note: $stop    : D:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/Discrete System Test.v(15)
+#    Time: 2 us  Iteration: 0  Instance: /iir_tb
+# Break in Module iir_tb at D:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/Discrete System Test.v line 15
+quit -sim
+# End time: 23:50:33 on May 20,2020, Elapsed time: 0:01:27
+# Errors: 0, Warnings: 1
+# Compile of Binary Counter RTL.v was successful.
+# Compile of Bin Counter RTL Test.v was successful.
+# Compile of Discrete System.v was successful.
+# Compile of Discrete System Test.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui -novopt work.iir_tb
+# vsim -gui -novopt work.iir_tb 
+# Start time: 23:51:59 on May 20,2020
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing D:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/work.iir_tb
+# Loading work.iir_tb
+# Refreshing D:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/work.discrete_sys_core
+# Loading work.discrete_sys_core
+add wave -position insertpoint sim:/iir_tb/*
+run -all
+# ** Note: $stop    : D:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/Discrete System Test.v(16)
+#    Time: 2 us  Iteration: 0  Instance: /iir_tb
+# Break in Module iir_tb at D:/BSEE/Semester 6/FPGA/Assignment/Module 8-10/Discrete System Test.v line 16
+quit -sim
+# End time: 23:52:46 on May 20,2020, Elapsed time: 0:00:47
+# Errors: 0, Warnings: 1
