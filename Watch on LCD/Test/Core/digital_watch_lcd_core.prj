@@ -1,0 +1,4 @@
+verilog work "Slow Clock.v"
+vhdl work "driver.vhd"
+verilog work "Digital Watch.v"
+verilog work "lcd.v"

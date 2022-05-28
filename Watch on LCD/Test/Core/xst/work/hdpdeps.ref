@@ -1,0 +1,7 @@
+V3 3
+FL D:/phi/LAB7/lab7/driver.vhd 2004/01/01.01:37:10 P.28xd
+EN work/lcd_driver 1341906179 FL D:/phi/LAB7/lab7/driver.vhd \
+      PB ieee/std_logic_1164 1341906176 PB ieee/std_logic_arith 1341906177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1341906179
+AR work/lcd_driver/behavioral 1341906180 \
+      FL D:/phi/LAB7/lab7/driver.vhd EN work/lcd_driver 1341906179

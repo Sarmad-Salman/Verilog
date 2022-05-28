@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/phi/LAB7/lab7/lcd.xst" -ofn "D:/phi/LAB7/lab7/lcd.syr" 
